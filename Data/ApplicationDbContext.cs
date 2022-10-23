@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Practica2.Entidades;
 
 namespace Practica2.Data
 {
@@ -8,6 +9,9 @@ namespace Practica2.Data
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
 
+
         }
+
+        public DbSet<VehicleType> VehicleTypes { get; set; }
     }
 }

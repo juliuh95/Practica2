@@ -25,7 +25,7 @@ namespace Practica2
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ApiMedFlix", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Practica2", Version = "v1" });
             });
         }
 
@@ -36,7 +36,7 @@ namespace Practica2
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ApiMedFlix v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Practica2 v1"));
             }
 
             app.UseHttpsRedirection();
