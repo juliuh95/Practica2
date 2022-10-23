@@ -12,6 +12,6 @@ namespace Practica2.Data
 
         }
 
-        public DbSet<VehicleType> VehicleTypes { get; set; }
+        public DbSet<VehicleType> VehicleType { get; set; }
     }
 }
