@@ -10,6 +10,12 @@ namespace Practica2.Helpers
         {
             CreateMap<VehicleType, VehicleTypeDTO>().ReverseMap();
             CreateMap<VehicleTypeCreacionDTO, VehicleType>();
+            CreateMap<Vehicle, VehicleDTO>().ReverseMap();
+            CreateMap<VehicleCreacionDTO, Vehicle>();
+            CreateMap<History, HistoryDTO>().ReverseMap();
+            CreateMap<HistoryCreacionDTO, History>();
+            CreateMap<Detail, DetailDTO>().ReverseMap();
+            CreateMap<DetailCreacionDTO, Detail>();
         }
     }
 }

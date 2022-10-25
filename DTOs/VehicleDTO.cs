@@ -4,7 +4,7 @@ namespace Practica2.DTOs
 {
     public class VehicleDTO
     {
-
+       
         public int Id { get; set; }
         [Required]
         [StringLength(100)]
