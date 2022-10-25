@@ -1,6 +1,6 @@
 ﻿namespace Practica2.Controllers
 {
-    public class Historys
+    public class DetailsController
     {
     }
 }

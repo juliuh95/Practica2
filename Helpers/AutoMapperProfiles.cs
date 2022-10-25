@@ -8,8 +8,8 @@ namespace Practica2.Helpers
     {
         public AutoMapperProfiles()
         {
+            CreateMap<VehicleType, VehicleTypeDTO>().ReverseMap();
             CreateMap<VehicleTypeCreacionDTO, VehicleType>();
-            CreateMap<VehicleTypeDTO, VehicleType>();
         }
     }
 }
