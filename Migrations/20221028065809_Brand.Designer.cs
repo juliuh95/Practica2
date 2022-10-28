@@ -11,8 +11,8 @@ using Practica2.Data;
 namespace Practica2.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221028042028_tables")]
-    partial class tables
+    [Migration("20221028065809_Brand")]
+    partial class Brand
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -22,6 +22,24 @@ namespace Practica2.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+
+            modelBuilder.Entity("Practica2.Entidades.Brand", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Brand");
+                });
 
             modelBuilder.Entity("Practica2.Entidades.Detail", b =>
                 {

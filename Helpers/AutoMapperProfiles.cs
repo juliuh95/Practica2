@@ -18,6 +18,8 @@ namespace Practica2.Helpers
             CreateMap<HistoryCreacionDTO, History>();
             CreateMap<Detail, DetailDTO>().ReverseMap();
             CreateMap<DetailCreacionDTO, Detail>();
+            CreateMap<Brand, BrandDTO>().ReverseMap();
+            CreateMap<BrandCreacionDTO, Brand>();
         }
     }
 }

@@ -3,7 +3,7 @@ using Practica2.Entidades;
 
 namespace Practica2.Data
 {
-    public class ApplicationDbContext: DbContext
+    public class ApplicationDbContext : DbContext
     {
 
         public ApplicationDbContext(DbContextOptions options) : base(options)
@@ -17,5 +17,9 @@ namespace Practica2.Data
         public DbSet<Vehicle> Vehicle { get; set; }
         public DbSet<History> History { get; set; }
         public DbSet<Detail> Detail { get; set; }
+        public DbSet<Brand> Brand { get; set; }
+
+  
+        
     }
 }

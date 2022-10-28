@@ -10,6 +10,8 @@ namespace Practica2.Entidades
         [Required]
         [StringLength(100)]
         public string Nombre { get; set; }
-        
+
+
+
     }
 }

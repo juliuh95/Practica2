@@ -12,5 +12,6 @@ namespace Practica2.Entidades
         public string Nombre { get; set; }
         [NotMapped]
         public string Foto { get; set; }
+
     }
 }

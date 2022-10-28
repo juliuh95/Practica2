@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Practica2.Entidades
 {
@@ -10,7 +11,7 @@ namespace Practica2.Entidades
         [StringLength(100)]
         public string Nombre { get; set; }
 
-      
+
 
     }
 }
