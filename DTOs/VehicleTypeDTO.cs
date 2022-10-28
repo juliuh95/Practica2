@@ -9,5 +9,6 @@ namespace Practica2.DTOs
         [Required]
         [StringLength(100)]
         public string Nombre { get; set; }
+
     }
 }

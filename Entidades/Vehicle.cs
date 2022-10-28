@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections;
+using System.ComponentModel.DataAnnotations;
 
 namespace Practica2.Entidades
 {
@@ -9,5 +10,6 @@ namespace Practica2.Entidades
         [Required]
         [StringLength(100)]
         public string Nombre { get; set; }
+        
     }
 }
