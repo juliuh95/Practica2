@@ -1,9 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Practica2.Entidades;
+using Practica2.Models;
 
 namespace Practica2.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext
     {
 
         public ApplicationDbContext(DbContextOptions options) : base(options)
@@ -18,8 +20,15 @@ namespace Practica2.Data
         public DbSet<History> History { get; set; }
         public DbSet<Detail> Detail { get; set; }
         public DbSet<Brand> Brand { get; set; }
+        public DbSet<IdentityModels> Fields { get; set; }
 
-  
-        
+
+
     }
+    /*protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+    }*/
+
+
 }

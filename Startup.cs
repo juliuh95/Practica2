@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Practica2.Servicios;
+using Microsoft.AspNetCore.Identity;
 
 namespace Practica2
 {
@@ -29,6 +30,9 @@ namespace Practica2
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Practica2", Version = "v1" });
             });
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
