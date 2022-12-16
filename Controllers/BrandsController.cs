@@ -1,4 +1,4 @@
-﻿namespace Practica2.Controllers
+﻿namespace Practica3.Controllers
 {
     public class BrandsController
     {

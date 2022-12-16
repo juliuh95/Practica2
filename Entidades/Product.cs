@@ -1,9 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
+﻿using System.Collections;
+using System.ComponentModel.DataAnnotations;
 
-namespace Practica2.Entidades
+namespace Practica3.Entidades
 {
-    public class VehicleType
+    public class Product
     {
         [Key]
         public int Id { get; set; }

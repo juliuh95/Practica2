@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
-namespace Practica2.Entidades
+namespace Practica3.Entidades
 {
     public class DocumentType
     {

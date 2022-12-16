@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Practica2.Entidades
+namespace Practica3.Entidades
 
 {
     public class Brand

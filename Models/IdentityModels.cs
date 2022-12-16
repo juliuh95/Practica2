@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace Practica2.Models
+namespace Practica3.Models
 {
     public class IdentityModels : IdentityUser
     {

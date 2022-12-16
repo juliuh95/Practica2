@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Practica2.DTOs
+namespace Practica3.DTOs
 {
     public class BrandDTO
     {

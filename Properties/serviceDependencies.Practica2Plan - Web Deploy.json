@@ -2,7 +2,7 @@
   "dependencies": {
     "mssql1": {
       "secretStore": "AzureAppSettings",
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/practica2dbserver/databases/Practica2_db",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/Practica3dbserver/databases/Practica3_db",
       "type": "mssql.azure",
       "connectionId": "defaultconnection"
     }

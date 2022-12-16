@@ -1,15 +1,18 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Practica3.Entidades
+namespace Practica3.DTOs
 {
-    public class History
+    public class ProductPhotoDTO
     {
-        [Key]
+
         public int Id { get; set; }
         [Required]
         [StringLength(100)]
         public string Nombre { get; set; }
+
+        public string Foto { get; set; }
+
 
     }
 }

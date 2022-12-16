@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Builder;
-using Practica2;
+using Practica3;
 
 var builder = WebApplication.CreateBuilder(args);
 

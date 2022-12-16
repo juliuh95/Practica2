@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Practica2.Data;
-using Practica2.DTOs;
-using Practica2.Entidades;
+using Practica3.Data;
+using Practica3.DTOs;
+using Practica3.Entidades;
 
-namespace Practica2.Controllers
+namespace Practica3.Controllers
 {
     [ApiController]
     [Route("api/historys")]

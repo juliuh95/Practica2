@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Practica2.Entidades
+namespace Practica3.Entidades
 {
-    public class VehiclePhoto
+    public class ProductPhoto
     {
         [Key]
         public int Id { get; set; }

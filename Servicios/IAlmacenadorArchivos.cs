@@ -1,4 +1,4 @@
-﻿namespace Practica2.Servicios
+﻿namespace Practica3.Servicios
 {
     public interface IAlmacenadorArchivos
     {

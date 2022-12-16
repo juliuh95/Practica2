@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Practica2.Entidades;
-using Practica2.Models;
+using Practica3.Entidades;
+using Practica3.Models;
 
-namespace Practica2.Data
+namespace Practica3.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -14,9 +14,9 @@ namespace Practica2.Data
 
         }
 
-        public DbSet<VehicleType> VehicleType { get; set; }
-        public DbSet<VehiclePhoto> VehiclePhoto { get; set; }
-        public DbSet<Vehicle> Vehicle { get; set; }
+        public DbSet<ProductType> ProductType { get; set; }
+        public DbSet<ProductPhoto> ProductPhoto { get; set; }
+        public DbSet<Product> Product { get; set; }
         public DbSet<History> History { get; set; }
         public DbSet<Detail> Detail { get; set; }
         public DbSet<Brand> Brand { get; set; }

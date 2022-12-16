@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Practica2.DTOs
+namespace Practica3.DTOs
 {
-    public class VehiclePhotoCreacionDTO
+    public class ProductPhotoCreacionDTO
     {
       
         [Required]
